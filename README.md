@@ -9,6 +9,7 @@ The repository has example samples for the first bytes of the code segment of re
 In order to generate a signature of these overlapping bytes, we run:
 
 ```bash
+$ python3 main.py samples/*
 [*] overlap in original data:
 00200000: 488d 2551 3f█0 0█48 8d3d f2ff ffff b901  H.%Q?█.H.=......
 00200010: 0100 c048 8b05 █e██ ██0█ 48c7 c200 0000  ...H..███.H.....
