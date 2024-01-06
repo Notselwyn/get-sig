@@ -8,7 +8,7 @@ The usage from `get-sig` is quite simple. Just provide xxd samples to generate s
 The repository has example samples for the first bytes of the code segment of recent Linux kernels at runtime and at rest.
 In order to generate a signature of these overlapping bytes, we run:
 
-```bash
+```python
 $ python3 main.py samples/*
 [*] overlap in original data:
 00200000: 488d 2551 3f█0 0█48 8d3d f2ff ffff b901  H.%Q?█.H.=......
