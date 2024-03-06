@@ -15,7 +15,7 @@ def main():
 
     for offset, common_bytes in _yield_common_bytes_from_file(INPUT_FILE):
         byte_str = "\\x" + '\\x'.join(f"{b:02x}" for b in common_bytes)
-        print(f'memcmp(pud_area + {hex(offset)}, "{byte_str}", {len(common_bytes)}) == 0 &&')
+        print(f'memcmp(addr + {hex(offset)}, "{byte_str}", {len(common_bytes)}) == 0 &&')
 
 if __name__ == "__main__":
     main()
