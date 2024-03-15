@@ -1,6 +1,6 @@
 # get-sig
 
-Quick n' dirty Python script to generate signatures of data, by extracting common bytes at common addresses. 
+A few Python scripts to generate signatures of data, by extracting common bytes at common addresses. This has been carefully coded with performance in mind, and has analyzed a dozen files with in total 400MiB data in a few seconds. 
 
 ## usage
 
